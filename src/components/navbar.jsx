@@ -15,7 +15,7 @@ const NavLink = ({ to, children }) => (
 export function Navbar() {
   return (
     <BrowserRouter>
-      <div className="w-full shadow-md bg-white">
+      <div className="w-full shadow-md bg-black">
         <nav className="container mx-auto px-4 py-4">
           {/* Logo and Navigation Container */}
           <div className="flex items-center justify-between max-w-6xl mx-auto">
