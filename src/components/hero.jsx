@@ -101,15 +101,18 @@ export function Hero() {
             <CardSlider3/>         
           </div>
           <>
-            <div className="grid grid-cols-2 w-8/12 mx-64 gap-10 mb-10 ">{['JEE2024', 'NEET2024'].map((exam) => (
-              <div key={exam} className="border border-gray-200 bg-sky-500/100 h-12 rounded-xl p-5 hover:shadow-md transition-shadow duration-300">
-                <Card>
-                <div className="flex justify-between items-center">
-                  <h1 className="text-nowrap text-start">View {exam} Results</h1>
-                  <img src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_800,f_auto,q_auto/v1731073629/bymo8br5tzitwj8v2yx7.svg?_upload_ref=ic_img_tool" 
-                  alt="arrowicon" className="ml-64 w-8"/>
+            <div className="grid grid-cols-2 w-9/12 mx-48 gap-20 mb-10">{['JEE2024', 'NEET2024'].map((exam) => (
+              <div key={exam} className="border border-gray-200 rounded-xl hover:shadow-md transition-shadow duration-300 h-12">
+              <Card>
+                <div className="flex justify-between items-center ">
+                  <h1 className="text-center text-nowrap w-72">View {exam} Results</h1>
+                  <img 
+                    src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_800,f_auto,q_auto/v1731073629/bymo8br5tzitwj8v2yx7.svg?_upload_ref=ic_img_tool" 
+                    alt="arrowicon" 
+                    className="mx-56 w-10"
+                  />
                 </div>
-                </Card>
+              </Card>
               </div>
               ))}
             </div>
