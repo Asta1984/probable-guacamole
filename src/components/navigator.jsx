@@ -1,6 +1,6 @@
-import { Card } from "./card"
-import { ChevronRight } from 'lucide-react'
-
+import { Card } from "./card";
+import { ChevronRight } from 'lucide-react';
+import { Button } from "./Button";
 export default function ExamResults() {
   const exams = ['JEE 2024', 'NEET 2024']
 
@@ -12,10 +12,10 @@ export default function ExamResults() {
             key={exam}
             className="border border-gray-200 rounded-xl hover:shadow-md transition-shadow duration-300 h-12 flex items-center justify-center"
           >
-            <Card className="w-full h-full">
+            <Card className="w-full h-full ">
               <button className="flex items-center justify-between px-4 py-2 w-full h-full text-white">
-                <span>View {exam} Results</span>
-                <ChevronRight className=" h-5 w-5 ml-44" />
+                <span className="text-black font-medium">View {exam} Results</span>
+                <ChevronRight className="ml-48" />
               </button>
             </Card>
           </div>
