@@ -100,9 +100,8 @@ const CardFooter = React.forwardRef(({ className, ...props }, ref) => (
 ))
 CardFooter.displayName = "CardFooter"
 
-// Card Slider Component
 function CardSlider() {
-  const [currentIndex, setCurrentIndex] = useState(0)
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   const cards = [
     <img
@@ -125,30 +124,53 @@ function CardSlider() {
       src="https://allen.in/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdpzpn3dkw%2Fimage%2Fupload%2Fv1731570587%2Fcbse_fwissm.webp&w=640&q=75"
       alt="allencard4"
     />,
-  ]
+  ];
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % cards.length)
-    }, 5000)
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % cards.length);
+    }, 5000);
 
-    return () => clearInterval(interval)
-  }, [cards.length])
+    return () => clearInterval(interval);
+  }, [cards.length]);
 
   return (
-    <div 
-      className="slider-container" 
-      style={{ 
-        display: "flex", 
-        justifyContent: "center", 
-        alignItems: "center", 
-        height: "300px", 
-        overflow: "hidden" 
+    <div
+      className="slider-container"
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "300px",
+        overflow: "hidden",
+        position: "relative",
       }}
     >
-      <Card variant="slider">{cards[currentIndex]}</Card>
+      <div
+        className="slider-track"
+        style={{
+          display: "flex",
+          transform: `translateX(-${currentIndex * 100}%)`,
+          transition: "transform 0.5s ease-in-out",
+          width: `${cards.length * 100}%`,
+        }}
+      >
+        {cards.map((card, index) => (
+          <div
+            key={index}
+            style={{
+              flex: "0 0 100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            {card}
+          </div>
+        ))}
+      </div>
     </div>
-  )
+  );
 }
 
 export {

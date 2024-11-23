@@ -1,30 +1,22 @@
 import { useState } from "react";
 import { useEffect } from "react";
 
-export function CardSlider2() {
+export function CardSlider4() {
     const [currentIndex, setCurrentIndex] = useState(0);
   
     const cards = [
       <img
-        src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_auto,q_auto/v1731914707/jvxufnoysgcl6krun5dr.webp?_upload_ref=ic_img_tool"
-        alt="allencard5"
+        src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1200,f_auto,q_auto/v1731330769/vtga4hno9tvp668jm34i.svg?_upload_ref=ic_img_tool"
+        alt="allencard11"
       />,
       <img
-        src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_auto,q_auto/v1731914764/zlcrmzpxjw9vgpftodn7.png?_upload_ref=ic_img_tool"
-        alt="allencard6"
+        src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1200,f_auto,q_auto/v1731330769/vtga4hno9tvp668jm34i.svg?_upload_ref=ic_img_tool"
+        alt="allencard12"
       />,
       <img
-        src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_auto,q_auto/v1731918410/n9alnsdsg9vwlylkbzq7.webp?_upload_ref=ic_img_tool"
-        alt="allencard7"
-      />,
-      <img
-        src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_auto,q_auto/v1731914792/g3oyr3gu38j0ollhjeno.png?_upload_ref=ic_img_tool"
-        alt="allencard8"
-      />,
-      <img
-      src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_auto,q_auto/v1731914815/egtumfugrnpf1isdotdj.webp?_upload_ref=ic_img_tool"
-      alt="allencard9"
-      />,
+        src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1200,f_auto,q_auto/v1731330851/jncudghayyflxuxoodkg.svg?_upload_ref=ic_img_tool"
+        alt="allencard13"
+      />
     ];
   
     useEffect(() => {
@@ -37,7 +29,7 @@ export function CardSlider2() {
   
     return (
       <div
-      className="slider-container flex justify-center items-center w-3/5 "
+      className="slider-container rounded-2xl"
       style={{
         display: "flex",
         justifyContent: "center",

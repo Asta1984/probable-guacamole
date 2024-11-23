@@ -3,7 +3,7 @@ import { Card } from "./card";
 
 export function CardSlider3() {
   return (
-    <div className="flex justify-center items-center w-4/6">
+    <div className="flex justify-center items-center w-8/12">
       <Card>
         {/* Desktop Image - Hidden on small screens */}
         <img
