@@ -5,6 +5,7 @@ import { CardSlider3 } from "./cardslider3";
 import ExamResults from "./navigator";
 import AccordionWithImages from "./subhero";
 import { CardSlider4 } from "./cardslider4";
+import ProfileCards from "./infinitecardcarousel";
 
 export function Hero() {
     return (
@@ -87,8 +88,8 @@ export function Hero() {
                   Regular mentorship sessions with faculty, guidance on exam strategy and updates to parents
                 </p>
               </Card>
-            
           </div>
+
           <div className="flex justify-center items-center m-8">
             <Button className="m-6">Explore Online Courses</Button>
           </div>
@@ -105,7 +106,7 @@ export function Hero() {
           
           <ExamResults />
           <>
-          <div className="w-full mb-10 bg-black">
+          <div className="w-full mb-10 bg-gradient-to-tr from-slate-800">
             <div className="container mx-48 w-9/12 mb-10">
             <h1 className="text-3xl font-medium mb-4 flex p-6" >ALLEN App Advantage</h1>
             <div className="grid grid-cols-2">
@@ -115,6 +116,8 @@ export function Hero() {
             </div>
           </div>
           </>
+          <h1 className="text-2xl font-medium mb-2 flex justify-center p-6" >Testimonials from our students</h1>
+          <ProfileCards />
         </>
       </>
     );
