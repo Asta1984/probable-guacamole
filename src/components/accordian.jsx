@@ -73,7 +73,7 @@ const AccordionTrigger = React.forwardRef(({
         type="button"
         onClick={() => toggleItem(value)}
         className={`flex flex-1 items-center justify-between py-4 font-medium 
-          transition-all hover:underline ${className}`}
+          transition-all  ${className}`}
         {...props}
       >
         {children}
