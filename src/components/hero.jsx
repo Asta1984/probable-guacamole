@@ -6,6 +6,7 @@ import ExamResults from "./navigator";
 import AccordionWithImages from "./subhero";
 import { CardSlider4 } from "./cardslider4";
 import ProfileCards from "./infinitecardcarousel";
+import CourseGrid from "./coursegrid";
 
 export function Hero() {
     return (
@@ -106,7 +107,7 @@ export function Hero() {
           
           <ExamResults />
           <>
-          <div className="w-full mb-10 bg-gradient-to-tr from-slate-800">
+          <div className="w-full mb-10 bg-gradient-to-tr from-stone-600">
             <div className="container mx-48 w-9/12 mb-10">
             <h1 className="text-3xl font-medium mb-4 flex p-6" >ALLEN App Advantage</h1>
             <div className="grid grid-cols-2">
@@ -116,8 +117,9 @@ export function Hero() {
             </div>
           </div>
           </>
-          <h1 className="text-2xl font-medium mb-2 flex justify-center p-6" >Testimonials from our students</h1>
+          <h1 className="text-2xl font-medium mb-2 flex justify-center p-6 mt-20" >Testimonials from our students</h1>
           <ProfileCards />
+          <CourseGrid />
         </>
       </>
     );
