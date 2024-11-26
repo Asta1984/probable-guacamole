@@ -37,7 +37,7 @@ const ProfileCards = () => {
     <div className="relative overflow-x-hidden">
         <div className="grid grid-cols-4 gap-40 animate-scroll space-x-10 p-11">
       {profileData.map((profile, index) => (
-        <Card key={`${profile.name}-${index}`} className="border border-gray-200 rounded-xl w-64 hover:shadow-md transition-shadow duration-300">
+        <Card key={`${profile.name}-${index}`} className="border border-gray-200 rounded-xl w-72 hover:shadow-md transition-shadow duration-300">
           <CardContent className="p-5 ">
             <img src="https://allen.in/quotes.svg" alt="quote" className=" -my-3 mb-4"/>
             <p className="text-xs text-gray-600 mb-7">{profile.description}</p>

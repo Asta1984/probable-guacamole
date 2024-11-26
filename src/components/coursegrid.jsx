@@ -1,15 +1,16 @@
 import React from 'react';
 import { Card } from './card';
 import { Button} from './Button';
+import CallbackForm from './callbackform';
 
 const CourseGrid = () => {
   return (
-    <div className="container w-3/5 mx-auto px-4">
+    <div className="container w-4/5 mx-auto px-4">
       <h1 className="text-2xl font-medium text-center py-8">
         Discover the perfect online course
       </h1>
       
-      <div className="grid grid-cols-2 gap-8 max-w-6xl mx-auto py-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mx-auto py-10 mb-20">
       <Card className="relative ... border border-gray-200 rounded-xl bg-gradient-to-tr from-blue-200 hover:shadow-md transition-shadow duration-300">
           <h3 className="font-medium p-4">Class 6 - 10</h3>
           <div className="aspect-video w-full overflow-hidden">
@@ -51,6 +52,18 @@ const CourseGrid = () => {
             </>
           </div>
         </Card>
+      </div>
+      <div className='grid grid-cols-2'>
+        <div className='flex justify-center items-center'>
+          <img 
+            src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_800,f_auto,q_auto/v1730878962/oqfy1klihlgn0vmpy77w.webp?_upload_ref=ic_img_tool" 
+            alt="Teacher" 
+            className='w-6/12'
+          />
+        </div>        
+        <>
+          <CallbackForm />
+        </>
       </div>
     </div>
   );
