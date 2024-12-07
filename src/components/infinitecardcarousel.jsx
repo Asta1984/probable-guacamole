@@ -8,28 +8,28 @@ const ProfileCards = () => {
       description: "I chose ALLEN Online Courses because I wanted to balance my NEET prep with my school schedule. The course structure, from daily homework to post-class handouts, was well-organized.",
       exam: "NEET-UG 2024",
       score: "Score 710/720",
-      photo: "https://allen.in/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdpzpn3dkw%2Fimage%2Fupload%2Fv1725858116%2FSarth-128x128_wrp1pw.webp&w=48&q=100",
+      photo: "https://res.cloudinary.com/dpzpn3dkw/image/upload/v1725858116/Sarth-128x128_wrp1pw.webp",
     },
     {
       name: "SEKH GALIB RAZA",
       description: "I took NEET in 2023 but didn't achieve my desired score, so I reattempted in 2024 with ALLEN Online Courses. The top-quality faculty, study material, & personalised experience on the ALLEN app helped me improve my score.",
       exam: "NEET-UG 2024",
       score: "Score 690/720",
-      photo: "https://allen.in/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdpzpn3dkw%2Fimage%2Fupload%2Fv1725858116%2FGalib-128x128_1_ktw4sw.webp&w=48&q=100",
+      photo: "https://res.cloudinary.com/dpzpn3dkw/image/upload/v1725858116/Galib-128x128_1_ktw4sw.webp",
     },
     {
       name: "AVIK DAS",
       description: "I wanted to stay with my family while preparing for JEE, so I chose ALLEN Online Courses. The faculty was great & the live classes, daily homework & test series helped me secure a great score & rank!",
       exam: "JEE Adv. 2024,",
       score: "AIR 69",
-      photo: "https://allen.in/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdpzpn3dkw%2Fimage%2Fupload%2Fv1725858116%2FAvik-128x128_vbkt1r.webp&w=48&q=100",
+      photo: "https://res.cloudinary.com/dpzpn3dkw/image/upload/v1725858116/Avik-128x128_vbkt1r.webp",
     },
     {
       name: "SHIFA FATIMA",
       description: "I came to know about ALLEN's Online Test Series from my senior in school. The tests are really awesome as these are based mainly on NCERT and cover almost all types of NEET questions. They gave me the real feel of the competition.",
       exam: "NEET-UG 2024",
       score: "Score 696/720",
-      photo: "https://allen.in/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdpzpn3dkw%2Fimage%2Fupload%2Fv1725858116%2FShifa-128x128_yjuigd.webp&w=48&q=100",
+      photo: "https://res.cloudinary.com/dpzpn3dkw/image/upload/v1725858116/Shifa-128x128_yjuigd.webp",
     },
   ];
 
