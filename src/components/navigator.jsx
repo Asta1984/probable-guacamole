@@ -14,7 +14,7 @@ export default function ExamResults() {
           >
             <Card className="w-full h-full ">
               <button className="flex items-center justify-between px-4 py-2 w-full h-full text-white">
-                <span className="text-black text-xs text-nowrap">View {exam} Results</span>
+                <span className="text-gray-300 text-xs text-nowrap">View {exam} Results</span>
                 <ChevronRight className="ml-48" />
               </button>
             </Card>

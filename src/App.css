@@ -1,9 +1,20 @@
-.text-wrap h2 {
-    color: #333;
-    line-height: 1.4;
+body {
+  /* AMOLED-friendly gradient background */
+  background: radial-gradient(circle, #000000, #050110, #0632e0);
+  background-size: 300% 300%;
+  font-family: 'Arial', sans-serif;
+  animation: gradientMove 6s ease infinite; /* Smooth motion */
+}
+
+/* Gradient animation */
+@keyframes gradientMove {
+  0% {
+      background-position: 0% 50%;
   }
-  
-  .text-wrap p {
-    color: #555;
+  50% {
+      background-position: 100% 50%;
   }
-  
+  100% {
+      background-position: 0% 50%;
+  }
+}

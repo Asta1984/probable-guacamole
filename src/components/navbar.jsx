@@ -6,7 +6,7 @@ import { Button } from "./Button";
 const NavLink = ({ to, children }) => (
   <Link 
     to={to} 
-    className="px-4 py-2 text-gray-700 hover:text-cyan-400 transition-colors relative group"
+    className="px-4 py-2 text-gray-100 hover:text-cyan-400 transition-colors relative group"
   >
     {children}
     <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-cyan-400 transition-all group-hover:w-full"></span>
@@ -28,7 +28,7 @@ export function Navbar() {
     <BrowserRouter>
       <header 
         className={`sticky top-0 z-50 w-full transition-colors duration-300 ${
-          isScrolled ? "bg-white/80 shadow-md backdrop-blur-lg" : "bg-white"
+          isScrolled ? "bg-hsl(0, 0%, 90%)/80 shadow-md backdrop-blur-lg" : "bg-hsl(0, 0%, 90%)"
         }`}
       >
         {/* Navbar */}

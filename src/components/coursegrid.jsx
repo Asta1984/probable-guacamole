@@ -6,13 +6,13 @@ import CallbackForm from './callbackform';
 const CourseGrid = () => {
   return (
     <div className="container w-4/5 mx-auto px-4">
-      <h1 className="text-2xl font-medium text-center py-8">
+      <h1 className="text-2xl font-medium text-center py-8 text-gray-300">
         Discover the perfect online course
       </h1>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mx-auto py-10 mb-20">
       <Card className="relative ... border border-gray-200 rounded-xl bg-gradient-to-tr from-blue-200 hover:shadow-md transition-shadow duration-300">
-          <h3 className="font-medium p-4">Class 6 - 10</h3>
+          <h3 className="font-medium p-4 text-gray-300">Class 6 - 10</h3>
           <div className="aspect-video w-full overflow-hidden">
             <img 
               src="https://res.cloudinary.com/dpzpn3dkw/image/upload/v1729079766/jee_vd0eql.webp" 
@@ -26,7 +26,7 @@ const CourseGrid = () => {
         </Card>
 
         <Card className="border border-gray-200 rounded-xl bg-gradient-to-tr from-blue-200 hover:shadow-md transition-shadow duration-300">
-          <h3 className="font-medium p-4">NEET</h3>
+          <h3 className="font-medium p-4 text-gray-300">NEET</h3>
           <div className="relative ... aspect-video w-full overflow-hidden">
             <img 
               src="https://res.cloudinary.com/dpzpn3dkw/image/upload/v1729079856/U_neet_ngbo57.webp" 
@@ -40,7 +40,7 @@ const CourseGrid = () => {
         </Card>
 
         <Card className="relative ... border border-gray-200 rounded-xl bg-gradient-to-tr from-blue-200 hover:shadow-md transition-shadow duration-300">
-          <h3 className="font-medium p-4">Class 6 - 10</h3>
+          <h3 className="font-medium p-4 text-gray-300">JEE</h3>
           <div className="aspect-video w-full overflow-hidden">
             <img 
               src="https://res.cloudinary.com/dpzpn3dkw/image/upload/v1729079855/grade_6_10_ilhkeb.webp" 
