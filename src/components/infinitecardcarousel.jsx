@@ -20,7 +20,7 @@ const ProfileCards = () => {
     {
       name: "AVIK DAS",
       description: "I wanted to stay with my family while preparing for JEE, so I chose ALLEN Online Courses. The faculty was great & the live classes, daily homework & test series helped me secure a great score & rank!",
-      exam: "JEE Adv. 2024,",
+      exam: "JEE Adv. 2024",
       score: "AIR 69",
       photo: "https://res.cloudinary.com/dpzpn3dkw/image/upload/v1725858116/Avik-128x128_vbkt1r.webp",
     },

@@ -53,18 +53,18 @@ const CourseGrid = () => {
           </div>
         </Card>
       </div>
-      <div className='grid grid-cols-2'>
-        <div className='flex justify-center items-center'>
-          <img 
-            src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_800,f_auto,q_auto/v1730878962/oqfy1klihlgn0vmpy77w.webp?_upload_ref=ic_img_tool" 
-            alt="Teacher" 
-            className='w-6/12'
-          />
-        </div>        
-        <>
-          <CallbackForm />
-        </>
+      <div className='grid grid-cols-1 md:grid-cols-2'>
+      <div className='hidden md:flex justify-center items-center'>
+        <img 
+          src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_800,f_auto,q_auto/v1730878962/oqfy1klihlgn0vmpy77w.webp?_upload_ref=ic_img_tool" 
+          alt="Teacher" 
+          className='w-full md:w-6/12'
+        />
+      </div>        
+      <div className='w-full'>
+        <CallbackForm />
       </div>
+    </div>
     </div>
   );
 };
