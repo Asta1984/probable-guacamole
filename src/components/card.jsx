@@ -106,22 +106,22 @@ function CardSlider() {
   const cards = [
     <img
       key="card1"
-      src="https://allen.in/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdpzpn3dkw%2Fimage%2Fupload%2Fv1731570554%2Folympiads_ukjyot.webp&w=640&q=75"
+      src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_auto,q_auto/v1733223161/mqhy3go6yar1qvslzse7.webp?_upload_ref=ic_img_tool"
       alt="allencard1"
     />,
     <img
       key="card2"
-      src="https://allen.in/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdpzpn3dkw%2Fimage%2Fupload%2Fw_1600%2Cf_auto%2Cq_auto%2Fv1732015029%2Fbtkzqgbysvyva0rnpdsa.png%3F_upload_ref%3Dic_img_tool&w=640&q=75"
+      src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_auto,q_auto/v1733223161/tsptwedgtx3vqsyo7xb0.webp?_upload_ref=ic_img_tool"
       alt="allencard2"
     />,
     <img
       key="card3"
-      src="https://allen.in/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdpzpn3dkw%2Fimage%2Fupload%2Fw_1600%2Cf_auto%2Cq_auto%2Fv1732015029%2Faoor9potdqdeknauqy8e.png%3F_upload_ref%3Dic_img_tool&w=640&q=75"
+      src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_800,f_auto,q_auto/v1733406973/atuips0rlsthj8xm1pus.webp?_upload_ref=ic_img_tool"
       alt="allencard3"
     />,
     <img
       key="card4"
-      src="https://allen.in/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdpzpn3dkw%2Fimage%2Fupload%2Fv1731570587%2Fcbse_fwissm.webp&w=640&q=75"
+      src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_auto,q_auto/v1733223161/rq014eg6s7lpjbwtkf6z.webp?_upload_ref=ic_img_tool"
       alt="allencard4"
     />,
   ];
