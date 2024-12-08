@@ -23,7 +23,7 @@ const accordionData = [
 
 const AccordionWithImages = () => {
   return (
-    <div className="p-6">
+    <div className="p-5  md:p-6 ">
       <Accordion type="single" style={{ minHeight: "300px" }}>
         {accordionData.map((item, index) => (
           <AccordionItem key={index} value={item.question}>

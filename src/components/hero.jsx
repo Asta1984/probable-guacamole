@@ -45,7 +45,7 @@ export function Hero() {
       </div>
 
       <h1 className="text-xl sm:text-2xl font-semibold mb-4 flex justify-center p-4 sm:p-6 text-gray-300">Why ALLEN Online</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 w-full">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-8 px-4 sm:px-6 ">
         {/* Kota Faculty Card */}
         <Card className="border border-gray-200 rounded-xl p-5 hover:shadow-md transition-shadow duration-300">
           <img src="/1_dfic0f.svg" alt="Kota Faculty" className="w-12 h-12 sm:w-16 sm:h-16 mb-4"/>
@@ -87,7 +87,7 @@ export function Hero() {
       </div>
       <>
           <h1 className="text-2xl font-semibold md:mb-4 flex justify-center p-6 text-gray-300">What's Trending</h1>
-          <div className="flex justify-center md:mb-20 ">
+          <div className="flex justify-center -mt-11 w-full md:mb-20 ">
             <CardSlider2/>         
           </div>
           <h1 className="text-2xl font-semibold mb-4 flex justify-center p-6 text-gray-300">Meet our Champions</h1>
@@ -99,7 +99,7 @@ export function Hero() {
           <>
           <div className="w-full mb-10 bg-gradient-to-tr from-stone-600">
             <div className="container justify-self-center md:mx-48 md:w-9/12 mb-10">
-            <h1 className="text-3xl font-semibold md:mb-16 flex p-6 text-gray-300" >ALLEN App Advantage</h1>
+            <h1 className="text-xl justify-self-center md:text-3xl font-semibold md:mb-16 flex p-6 text-gray-300" >ALLEN App Advantage</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 text-gray-300">
               <AccordionWithImages />
               <CardSlider4 />

@@ -5,11 +5,11 @@ import { Button } from "./Button"
 export default function CallbackForm() {
   return (
       <>
-      <Card className="w-full max-w-2xl bg-slate-700 text-white p-6 rounded-2xl">
-        <h1 className="text-2xl font-semibold mb-6">Request a call back</h1>
+      <Card className="-mx-14 md:w-full bg-slate-700 text-white p-6 rounded-2xl">
+        <h1 className="text-xl md:text-2xl font-semibold mb-6">Request a call back</h1>
         <hr className="border-t-4 border-white mb-8" />
         
-        <form className="space-y-6">
+        <form className=" text-xs md:space-y-6 ">
           <div className="grid md:grid-cols-2 gap-6">
             <div className="space-y-2">
               <label htmlFor="name" className="block text-sm">
@@ -115,7 +115,7 @@ export default function CallbackForm() {
             </div>
           </div>
 
-          <div className="text-sm text-gray-300 text-center">
+          <div className="text-sm text-gray-300 text-center mt-3 mb-6">
             By continuing, you agree to our{" "}
             <a href="#" className="text-blue-400 hover:underline">
               Terms & Conditions

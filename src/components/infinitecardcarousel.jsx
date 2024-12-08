@@ -35,7 +35,7 @@ const ProfileCards = () => {
 
   return (
     <div className="relative overflow-x-hidden">
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-4 md:gap-40 md:animate-scroll p-11 ">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-4 md:gap-40 md:animate-scroll p-11 ">
       {profileData.map((profile, index) => (
         <Card key={`${profile.name}-${index}`} className="border border-gray-200 rounded-xl md:w-64 hover:shadow-md transition-shadow duration-300">
           <CardContent className="p-5">

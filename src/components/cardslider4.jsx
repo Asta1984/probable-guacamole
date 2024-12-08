@@ -29,7 +29,7 @@ export function CardSlider4() {
   
     return (
       <div
-      className="slider-container rounded-xl justify-self-center -mt-10 w-8/12 md:w-full"
+      className="slider-container rounded-2xl md:rounded-xl justify-self-center -mt-10 w-8/12 md:w-full"
       style={{
         display: "flex",
         justifyContent: "center",
