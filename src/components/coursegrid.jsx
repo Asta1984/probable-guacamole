@@ -10,7 +10,7 @@ const CourseGrid = () => {
         Discover the perfect online course
       </h1>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mx-auto py-10 mb-20">
+      <div className="grid grid-cols-1 w-64 md:grid-cols-2 md:w-full lg:grid-cols-3 gap-16 mx-auto py-10 mb-20">
       <Card className="relative ... border border-gray-200 rounded-xl bg-gradient-to-tr from-blue-200 hover:shadow-md transition-shadow duration-300">
           <h3 className="font-medium p-4 text-gray-300">Class 6 - 10</h3>
           <div className="aspect-video w-full overflow-hidden">

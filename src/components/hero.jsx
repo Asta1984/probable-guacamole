@@ -13,12 +13,12 @@ export function Hero() {
   return (
     <>
       {/* Card Section */}
-      <div className="justify-self-center mx-4 sm:mx-8 md:mx-16 lg:mx-28 sm:w-5/6 -mt-20 md:w-4/6 mb-8 sm:mb-0 sm:-mt-8 md:-mt-14">
+      <div className="justify-self-center mx-4 sm:mx-8 md:mx-16 lg:mx-28 sm:w-5/6 -mt-20 md:w-4/6 mb-8 sm:mb-0 md:-mt-20">
         <Card>
           <img
             src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_auto,q_auto/v1731936188/cox0rhomr0wt26wbymnr.webp?_upload_ref=ic_img_tool"
             alt="allencard1"
-            className="w-full h-auto"
+            className="w-full h-11 md:h-auto"
           />
         </Card>
       </div>
@@ -39,12 +39,12 @@ export function Hero() {
         </div>
 
         {/* Right Column - Slider */}
-        <div className="flex justify-center md:justify-end w-full mt-8 md:mt-0">
+        <div className="flex justify-self-center w-2/3 md:justify-end md:w-full mt-8 md:mt-0">
           <CardSlider />
         </div>
       </div>
 
-      <h1 className="text-xl sm:text-2xl font-medium mb-4 flex justify-center p-4 sm:p-6 text-gray-300">Why ALLEN Online</h1>
+      <h1 className="text-xl sm:text-2xl font-semibold mb-4 flex justify-center p-4 sm:p-6 text-gray-300">Why ALLEN Online</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 w-full">
         {/* Kota Faculty Card */}
         <Card className="border border-gray-200 rounded-xl p-5 hover:shadow-md transition-shadow duration-300">
@@ -86,11 +86,11 @@ export function Hero() {
         <Button className="m-6">Explore Online Courses</Button>
       </div>
       <>
-          <h1 className="text-2xl font-medium mb-4 flex justify-center p-6 text-gray-300">What's Trending</h1>
-          <div className="flex justify-center mb-20">
+          <h1 className="text-2xl font-semibold md:mb-4 flex justify-center p-6 text-gray-300">What's Trending</h1>
+          <div className="flex justify-center md:mb-20 ">
             <CardSlider2/>         
           </div>
-          <h1 className="text-2xl font-medium mb-4 flex justify-center p-6 text-gray-300">Meet our Champions</h1>
+          <h1 className="text-2xl font-semibold mb-4 flex justify-center p-6 text-gray-300">Meet our Champions</h1>
           <div className="flex justify-center mb-20">
             <CardSlider3/>         
           </div>
@@ -98,9 +98,9 @@ export function Hero() {
           <ExamResults />
           <>
           <div className="w-full mb-10 bg-gradient-to-tr from-stone-600">
-            <div className="container mx-48 w-9/12 mb-10">
-            <h1 className="text-3xl font-medium mb-4 flex p-6 text-gray-300" >ALLEN App Advantage</h1>
-            <div className="grid grid-cols-2 text-gray-300">
+            <div className="container justify-self-center md:mx-48 md:w-9/12 mb-10">
+            <h1 className="text-3xl font-semibold md:mb-16 flex p-6 text-gray-300" >ALLEN App Advantage</h1>
+            <div className="grid grid-cols-1 md:grid-cols-2 text-gray-300">
               <AccordionWithImages />
               <CardSlider4 />
             </div>
