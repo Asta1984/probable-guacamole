@@ -32,9 +32,9 @@ export function Hero() {
             Explore our online courses
           </p>
           <div className="flex flex-wrap gap-4">
-            <Button variant="outline">NEET</Button>
-            <Button variant="outline">JEE</Button>
-            <Button variant="outline">Grade 6-10</Button>
+            <Button variant="secondary">NEET</Button>
+            <Button variant="secondary">JEE</Button>
+            <Button variant="default">Grade 6-10</Button>
           </div>
         </div>
 
@@ -47,7 +47,7 @@ export function Hero() {
       <h1 className="text-xl sm:text-2xl font-semibold mb-4 flex justify-center p-4 sm:p-6 text-gray-300">Why ALLEN Online</h1>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-8 px-4 sm:px-6 ">
         {/* Kota Faculty Card */}
-        <Card className="border border-gray-200 rounded-xl p-5 hover:shadow-md transition-shadow duration-300">
+        <Card className="bg-black/40 border border-gray-200 rounded-xl p-5 hover:shadow-md transition-shadow duration-300">
           <img src="/1_dfic0f.svg" alt="Kota Faculty" className="w-12 h-12 sm:w-16 sm:h-16 mb-4"/>
           <h2 className="text-sm sm:text-m font-medium mb-3 text-gray-300">Kota Faculty</h2>
           <p className="text-xs sm:text-s text-gray-400 text-left">
@@ -56,7 +56,7 @@ export function Hero() {
         </Card>
 
         {/* Proven Results Card */}
-        <Card className="border border-gray-200 rounded-xl p-5 hover:shadow-md transition-shadow duration-300">
+        <Card className="bg-black/40 border border-gray-200 rounded-xl p-5 hover:shadow-md transition-shadow duration-300">
           <img src="/2_ddboz0.svg" alt="Proven Results" className="w-12 h-12 sm:w-16 sm:h-16 mb-4"/>
           <h2 className="text-sm sm:text-m font-medium mb-3 text-gray-300">Proven Results</h2>
           <p className="text-xs sm:text-s text-gray-400 text-left">
@@ -65,7 +65,7 @@ export function Hero() {
         </Card>
 
         {/* Learning Tools Card */}
-        <Card className="border border-gray-200 rounded-xl p-5 hover:shadow-md transition-shadow duration-300">
+        <Card className="bg-black/40 border border-gray-200 rounded-xl p-5 hover:shadow-md transition-shadow duration-300">
           <img src="/3_ivbkv8.svg" alt="Learning Tools" className="w-12 h-12 sm:w-16 sm:h-16 mb-4"/>
           <h2 className="text-sm sm:text-m font-medium mb-3 text-gray-300">Learning Tools</h2>
           <p className="text-xs sm:text-s text-gray-400 text-left">
@@ -74,7 +74,7 @@ export function Hero() {
         </Card>
 
         {/* Mentor Support Card */}
-        <Card className="border border-gray-200 rounded-xl p-5 hover:shadow-md transition-shadow duration-300">
+        <Card className="bg-black/40 border border-gray-200 rounded-xl p-5 hover:shadow-md transition-shadow duration-300">
           <img src="/4_ar5ewd.svg" alt="Mentor Support" className="w-12 h-12 sm:w-16 sm:h-16 mb-4"/>
           <h2 className="text-sm sm:text-m font-medium mb-3 text-gray-400">Mentor Support</h2>
           <p className="text-xs sm:text-s text-gray-400 text-left">

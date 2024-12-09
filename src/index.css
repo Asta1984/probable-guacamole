@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom Pointer Effect */
+.pointer-light {
+  @apply absolute w-36 h-36 bg-white opacity-0 rounded-full pointer-events-none mix-blend-screen;
+  filter: blur(45px);
+  transition: transform 100ms ease, opacity 100ms ease;
+  transform: translate(-50%, -50%);
+}

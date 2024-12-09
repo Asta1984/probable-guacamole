@@ -1,9 +1,9 @@
 body {
   /* AMOLED-friendly gradient background */
-  background: radial-gradient(circle, #000000, #050110, #0632e0);
+  background: radial-gradient(circle, #0082aa, #1e1241, #000000);
   background-size: 300% 300%;
   font-family: 'Arial', sans-serif;
-  animation: gradientMove 6s ease infinite; /* Smooth motion */
+  animation: gradientMove 10s ease infinite; /* Smooth motion */
 }
 
 /* Gradient animation */

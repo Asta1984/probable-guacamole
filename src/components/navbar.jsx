@@ -33,7 +33,7 @@ export function Navbar() {
     <BrowserRouter>
       <header 
         className={`sticky top-0 z-50 w-full transition-colors duration-300 ${
-          isScrolled ? "bg-black/80 shadow-md backdrop-blur-lg" : "bg-black"
+          isScrolled ? "bg-black/60 shadow-md backdrop-blur-lg" : "bg-black"
         }`}
       >
         <nav className="container mx-auto px-4 py-4">
@@ -108,7 +108,7 @@ export function Navbar() {
       <div className="pt-16">
         <main className="container mx-auto px-4 py-8">
           <Routes>
-            <Route path="/" element={<h1>Home Page</h1>} />
+            <Route path="/" element={<h1></h1>} />
             <Route path="/courses" element={<Courses />} />
             <Route path="/series" element={<TestSeries />} />
             <Route path="/scholarship" element={<Scholarship />} />

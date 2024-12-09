@@ -12,6 +12,11 @@ export default {
           '100%': { transform: 'translateX(-50%)' },
         },
       },
+      colors: {
+        darkgreen: "#064e3b", // Example custom color
+        teal: "#14b8a6",
+        purple: "#8b5cf6",
+      },
       animation: {
         scroll: 'scroll 25s linear infinite',
       },
